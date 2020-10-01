@@ -1,0 +1,55 @@
+.logo{
+  width:100px;
+  height:50px;
+}
+
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg{
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("../image/abcd_student.jpg")}
+
+/*top button*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(146, 145, 145);;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+
+
+
+
+.aboutus{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 35px;
+  font-weight: 550;
+}
+
+.about{
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+
+
+
